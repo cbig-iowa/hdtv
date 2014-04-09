@@ -5,7 +5,7 @@ This is a MATLAB implementation of Higher Degree Total Variation (HDTV) regulari
 For more information, see: (https://research.engineering.uiowa.edu/cbig/content/generalized-hdtv)
 
 ##Code Basics
-To begin, open the MATLAB script "start.m". Running this script unaltered will demonstrate the use of HDTV in denoising a 256x256x16 axial brain MR image. To adjust the amount of regularization, change the variable `lambda`; increasing `lambda` will increase the amount of regularization (i.e smooth more), decreasing `lambda` will apply less regularization. *In all cases, the `lambda` parameter must be tuned to obtain optimal results*.
+To begin, open the MATLAB script "start.m". Running this script unaltered will demonstrate the use of HDTV in denoising a 256x256x16 axial brain MR image. To adjust the amount of regularization, change the variable `lambda`; increasing `lambda` will increase the amount of regularization (i.e smooth more), decreasing `lambda` will apply less regularization. **In all cases, the `lambda` parameter must be tuned to obtain optimal results**.
 
 ##Changing the Mode
 This package is set-up to perform 3-D image denoising, deblurring, and compressed sensing MRI recovery.
